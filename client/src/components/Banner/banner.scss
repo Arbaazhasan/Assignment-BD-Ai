@@ -1,0 +1,186 @@
+.Banner {
+    margin: auto;
+    width: 1384px;
+    height: 524px;
+    opacity: 1;
+    border-radius: 22px;
+    background-color: #0668E1;
+
+    position: relative;
+    margin: 54px auto;
+    overflow: hidden;
+
+    >.banner-bg-image {
+        position: absolute;
+        right: 0;
+        bottom: -12px;
+
+    }
+
+    >.banner-details {
+        width: 764px;
+        height: 346.87982177734375px;
+        position: relative;
+        top: 89px;
+        left: 42px;
+        gap: 34px;
+        opacity: 1;
+
+        display: flex;
+        flex-direction: column;
+
+        >p {
+            width: 744px;
+            height: 120px;
+            // border: 2px solid red;
+            opacity: 1;
+            color: #F9FAFE;
+
+            font-family: Poppins;
+            font-weight: 700;
+            font-style: Bold;
+            font-size: 40px;
+            display: flex;
+        }
+
+
+        >.banner-input-container {
+            // border: 2px solid red;
+            width: 764px;
+            height: 78px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 25.82px;
+            opacity: 1;
+
+            border-radius: 73px;
+            background-color: #F9FAFE;
+
+            >div {
+                width: 446.35089111328125px;
+                height: 34px;
+                gap: 6.46px;
+                opacity: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                >input {
+                    width: 406px;
+                    height: 34px;
+                    opacity: 1;
+                    border: none;
+                    outline: none;
+
+                    font-family: Poppins;
+                    font-weight: 500;
+                    font-style: Medium;
+                    font-size: 22.6px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+
+                    &::placeholder {
+                        color: #121212;
+                    }
+
+
+                }
+            }
+
+            >.input-icons {
+                // border: 2px solid red;
+                width: 149.41632080078125px;
+                height: 42.88999938964844px;
+                gap: 19.37px;
+                opacity: 1;
+
+                >.banner-input-icons {
+
+                    width: 33.894737243652344px;
+                    height: 33.894737243652344px;
+
+
+                    opacity: 1;
+
+                }
+
+            }
+
+        }
+
+
+        >.banner-recent-container {
+            width: 764px;
+            height: 80.87980651855469px;
+            display: flex;
+            flex-direction: column;
+            gap: 21.95px;
+
+            >p {
+
+                font-family: Poppins;
+                font-weight: 600;
+                font-style: SemiBold;
+                font-size: 25.61px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: #F9FAFE;
+            }
+
+
+            >.recent-search-words {
+                // border: 2px solid red;
+                width: 757.3413696289062px;
+                opacity: 1;
+                display: flex;
+                gap: 21.95px;
+                flex-wrap: wrap;
+
+
+                >.search-word {
+                    cursor: pointer;
+                    display: flex;
+                    width: fit-content;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #FFFFFF;
+
+                    height: 37.97595977783203px;
+                    gap: 9.15px;
+                    opacity: 1;
+                    border-radius: 8px;
+                    border-width: 0.91px;
+
+                    padding: 0 10.49px;
+
+
+                    >p {
+                        font-family: Poppins;
+                        font-weight: 500;
+                        font-style: Medium;
+                        font-size: 18.29px;
+                        letter-spacing: 0%;
+                        text-align: center;
+                        color: #565656;
+
+
+                    }
+
+                    >img {
+                        width: 10.975961685180664px;
+                        height: 10.975961685180664px;
+                        opacity: 1;
+                        border-width: 0.18px;
+
+                        border-width: 0.18px;
+                        // border: 2px solid red;
+
+                    }
+                }
+            }
+
+        }
+
+    }
+}
