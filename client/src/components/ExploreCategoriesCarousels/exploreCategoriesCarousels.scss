@@ -1,0 +1,79 @@
+.Explore-Categories-Carousels {
+    width: 1384px;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 32px auto;
+
+    >p {
+        font-family: Poppins;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 36px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #121212;
+    }
+
+    >.categories-Carousels {
+        width: 1384px;
+        height: 278px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        opacity: 1;
+        // border: 2px solid red;
+        gap: 18px;
+
+
+        >.carousel-options-array {
+            // border: 2px solid red;
+            display: flex;
+            gap: 18px;
+            overflow: scroll;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+
+
+
+            >.carousel-option {
+                width: 225.17483520507812px;
+                height: 274.4051513671875px;
+                opacity: 1;
+                gap: 12px;
+                text-align: center;
+
+                >img {
+                    width: 225.17483520507812px;
+                    height: 226.40516662597656px;
+                    opacity: 1;
+                }
+
+                >p {
+                    font-family: Poppins;
+                    font-weight: 500;
+                    font-style: Medium;
+                    font-size: 24px;
+                    line-height: 100%;
+                    letter-spacing: 4%;
+                    text-align: center;
+
+                    color: #121212;
+                }
+            }
+        }
+
+
+        >.categories-Carousels-btn {
+            width: 64px;
+            height: 64px;
+
+        }
+
+    }
+
+}

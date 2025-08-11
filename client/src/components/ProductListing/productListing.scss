@@ -1,0 +1,203 @@
+.product-listing-container {
+    width: 1384px;
+    // height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: auto;
+
+    >p {
+        font-family: Poppins;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #121212;
+    }
+
+    >.product-list {
+        // border: 2px solid red;
+        width: 100%;
+
+        display: flex;
+        gap: 10px;
+        overflow-x: auto;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        >.list-item {
+            height: 52px;
+            border-radius: 16px;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+
+            padding: 0 12px;
+
+            border: 1px solid transparent;
+            background:
+
+                linear-gradient(#fff, #fff) padding-box,
+                linear-gradient(#0568E0, #1E3D59) border-box;
+
+            font-family: Poppins;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 24px;
+            line-height: 100%;
+            letter-spacing: 4%;
+        }
+
+
+    }
+
+
+    >.product-card-container {
+
+        // border: 2px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        overflow: auto;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+
+        >.product-card {
+
+            width: 319.1736755371094px;
+            height: auto;
+            border-radius: 12.03px;
+            border: 0.5px solid #121212;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30.09px;
+            padding: 12.03px 0px;
+
+
+            >.product-image {
+                position: relative;
+
+
+
+                >.product-like-btn {
+                    width: 34.577884674072266px;
+                    height: 34.577884674072266px;
+                    position: absolute;
+                    top: 12.98px;
+                    left: 239.63px;
+                    gap: 13.14px;
+                    border-radius: 15.76px;
+                    padding: 5.25px;
+                    background-color: #FFFFFF;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 100%;
+                    cursor: pointer;
+                }
+
+                width: 294.3199768066406px;
+                height: 271.7831115722656px;
+                border-radius: 12.03px;
+                overflow: hidden;
+
+                >img {
+                    width: 100%;
+                    height: 100%;
+                }
+
+            }
+
+            >.product-details {
+                width: 295.1053771972656px;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+                padding-right: 12.03px;
+                padding-left: 12.03px;
+
+                >.product-price {
+
+
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+
+
+                    >p {
+                        // border: 2px solid red;
+                        font-family: Poppins;
+                        font-weight: 600;
+                        font-style: SemiBold;
+                        font-size: 24px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #121212;
+
+
+                    }
+
+                    >p:nth-child(2) {
+                        font-family: Roboto;
+                        font-weight: 400;
+                        font-style: Regular;
+                        font-size: 19.13px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+
+
+                        >span {
+                            font-family: Roboto;
+                            font-weight: 600;
+                            font-style: SemiBold;
+                            font-size: 20px;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+
+                        }
+
+                    }
+                }
+
+
+                >.product-title {
+                    font-family: Poppins;
+                    font-weight: 600;
+                    font-style: SemiBold;
+                    font-size: 16px;
+                    // line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #565656;
+
+
+                }
+
+                >.product-seller-location {
+                    display: flex;
+                    justify-content: space-between;
+                    font-family: Poppins;
+                    font-weight: 600;
+                    font-style: SemiBold;
+                    font-size: 16px;
+                    // line-height: 100%;
+                    letter-spacing: 0%;
+
+                    color: #565656;
+                }
+
+            }
+        }
+    }
+
+
+
+}
