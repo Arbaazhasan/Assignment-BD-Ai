@@ -15,165 +15,82 @@ import { FaRegBell } from "react-icons/fa";
 
 const Header = () => {
     return (
-        // <div className="h-[104.98761749267578px] p-19 px-15 flex gap-8 items-center justify-between">
 
-        //     <div className="flex items-center justify-center">
-        //         <img className='w-[125.87073516845703px] h-[49.52291488647461px] ' src="/images/logo.jpg" alt="Logo" />
-        //     </div>
+        <div className="header">
 
-        //     <div className="border-2 border-solid border-gray-500  px-2.5 rounded-xl flex gap-1.5 items-center ">
-        //         <IoLocationOutline className="text-[24px]" />
-        //         <input
-        //             type="text"
-        //             placeholder="Taj Garden Retreat, Bengaluru"
-        //             className="text-[16px] outline-none text-black w-full"
-        //         />
-        //     </div>
+            <div className="header-container">
 
-        //     <div className='flex gap-8'>
-        //         <button className=" min-w-17 rounded-3xl p-1 bg-gradient-to-r from-blue-600 to-blue-950">
-        //             <div className='h-8 px-3 bg-white rounded-3xl flex items-center justify-center  gap-1.5'>
-        //                 <FaPlus />
-        //                 Sell
-        //             </div>
-        //         </button>
-
-        //         <button className=" min-w-17 rounded-3xl p-1 bg-gradient-to-r from-blue-600 to-blue-950">
-        //             <div className='h-8 px-3 bg-white rounded-3xl flex items-center justify-center  gap-1.5'>
-        //                 <LuMousePointerClick />
-        //                 One Click sell
-        //             </div>
-        //         </button>
-        //     </div>
-
-        //     <div className=' min-w-100 flex justify-between'>
-
-        //         <a href=""
-        //             className='flex flex-col items-center gap-0.5 '
-        //         >
-
-        //             <AiOutlineShopping className='text-2xl text-gray-600' />
-        //             <p className='text-[10px] text-gray-500'>Your Items</p>
-        //         </a>
-
-        //         <a href=""
-        //             className='flex flex-col items-center gap-0.5 '
-        //         >
-
-        //             <CiHeart className='text-2xl text-gray-600' />
-        //             <p className='text-xs text-gray-500'>Favourites</p>
-        //         </a>
-
-        //         <a href=""
-        //             className='flex flex-col items-center gap-0.5 '
-        //         >
-
-        //             <IoChatboxEllipsesOutline className='text-2xl text-gray-600' />
-        //             <p className='text-xs text-gray-500'>Chat</p>
-        //         </a>
-
-        //         <a href=""
-        //             className='flex flex-col items-center gap-0.5 '
-        //         >
-
-        //             <IoIosPaper className='text-2xl text-gray-600' />
-        //             <p className='text-xs text-gray-500'>Blogs</p>
-        //         </a>
-
-        //         <a href=""
-        //             className='flex flex-col items-center gap-0.5 '
-        //         >
-
-        //             <MdBusinessCenter className='text-2xl text-gray-600' />
-        //             <p className='text-xs text-gray-500'>Career</p>
-        //         </a>
-
-        //     </div>
-
-        //     <div className='flex gap-5 items-center'>
-        //         <div>
-        //             <FaRegBell className='text-3xl' />
-        //         </div>
-
-        //         <div className='border-gray-300 border-solid border-2  w-12 h-12  flex justify-center items-center rounded-full overflow-hidden cursor-pointer'>
-        //             <img src="/images/profile-icon.png" alt="" />
-        //         </div>
-        //     </div>
-
-
-
-        // </div>
-
-
-        <div className="header-container">
-
-            <div className="logo-container">
-                <img className='logo-image' src="/images/logo.jpg" alt="Logo" />
-                <p>Buy. Inspect. Deal</p>
-            </div>
-
-            <div className="location-input-container">
-                <IoLocationOutline className="location-icon" />
-                <input
-                    type="text"
-                    placeholder="Taj Garden Retreat, Bengaluru"
-                    className="location-input"
-                />
-            </div>
-
-            <div className='sell-buttons'>
-                <div className="sell-btn">
-                    <FaPlus />
-                    Sell
+                <div className="logo-container">
+                    <img className='logo-image' src="/images/logo.jpg" alt="Logo" />
+                    <p>Buy. Inspect. Deal</p>
                 </div>
 
-                <div className="sell-btn">
-                    <LuMousePointerClick />
-                    One Click sell
-                </div>
-            </div>
-
-            <div className='menu-links'>
-
-                <a href="" className='menu-link'>
-                    <AiOutlineShopping className='menu-icon' />
-                    <p>Your Items</p>
-                </a>
-
-                <a href="" className='menu-link'>
-                    <CiHeart className='menu-icon' />
-                    <p>Favourites</p>
-                </a>
-
-                <a href="" className='menu-link'>
-                    <IoChatboxEllipsesOutline className='menu-icon' />
-                    <p>Chat</p>
-                </a>
-
-                <a href="" className='menu-link'>
-                    <IoIosPaper className='menu-icon' />
-                    <p>Blogs</p>
-                </a>
-
-                <a href="" className='menu-link'>
-                    <MdBusinessCenter className='menu-icon' />
-                    <p>Career</p>
-                </a>
-
-            </div>
-
-            <div className='notification-profile'>
-                <div>
-                    <FaRegBell className='notification-icon' />
+                <div className="location-input-container">
+                    <div className='location-icon'>
+                        <img src="/images/location_on (1).png" alt="" />
+                    </div>
+                    <input
+                        type="text"
+                        placeholder="Taj Garden Retreat, Bengaluru"
+                        className="location-input"
+                    />
                 </div>
 
-                <div className='profile-container'>
-                    <img src="/images/profile-icon.png" alt="" />
+                <div className='sell-buttons'>
+                    <div className="sell-btn">
+                        <img src="/images/Icon (1).png" alt="" />
+                        Sell
+                    </div>
+
+                    <div className="sell-btn">
+                        <img src="/images/arrow-click.png" alt="" />
+                        One Click sell
+                    </div>
                 </div>
+
+                <div className='menu-links'>
+
+                    <a href="" className='menu-link'>
+                        <img src="/images/cart.png" alt="" className='menu-icon' />
+                        <p>Your Items</p>
+                    </a>
+
+                    <a href="" className='menu-link'>
+                        <img src="/images/icon (3).png" alt="" className='menu-icon' />
+                        <p>Favourites</p>
+                    </a>
+
+                    <a href="" className='menu-link'>
+                        <img src="/images/Icon.png" alt="" className='menu-icon' />
+
+                        <p>Chat</p>
+                    </a>
+
+                    <a href="" className='menu-link'>
+                        <img src="/images/image 75 (2).png" alt="" className='menu-icon' />
+                        <p>Blogs</p>
+                    </a>
+
+                    <a href="" className='menu-link'>
+                        <img src="/images/promotion_1589131 1 (1).png" alt="" className='menu-icon' />
+                        <p>Career</p>
+                    </a>
+
+                </div>
+
+                <div className='notification-profile'>
+                    <div>
+                        <img src="/images/icon (4).png" alt="" className='notification-icon' />
+                    </div>
+
+                    <div className='profile-container'>
+                        <img src="/images/profile-icon.png" alt="" />
+                    </div>
+                </div>
+
             </div>
 
         </div>
-
 
     );
 }

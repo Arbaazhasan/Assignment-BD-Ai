@@ -15,7 +15,7 @@ const BannerCarousels = () => {
             </div>
 
             <div className="start-sell-btn">
-                <button>Start Sell Now</button>
+                <button>Start Sell Now <img src="/images/Frame 1261154315.png" alt="" /></button>
             </div>
 
 

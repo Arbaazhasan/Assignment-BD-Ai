@@ -1,202 +1,209 @@
-.header-container {
-    // border: 2px solid red;
-    margin: auto;
-    width: 1389px;
-    // height: 104.98761749267578px;
+.header {
     display: flex;
-    justify-content: space-between;
-    opacity: 1;
-    padding-top: 40px;
-    align-items: center;
+    justify-content: center;
 
-    >.logo-container {
-        width: 125.87073516845703px;
-        height: 49.52291488647461px;
+    .header-container {
+        // border: 2px solid red;
+        width: 1389px;
+        height: 104.98761749267578px;
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
+        // padding-top: 40px;
         align-items: center;
-        justify-content: center;
+        position: fixed;
+        background-color: white;
+        z-index: 1000;
+        top: 0;
 
-        >img {
+
+        >.logo-container {
             width: 125.87073516845703px;
             height: 49.52291488647461px;
-        }
-
-        >p {
-            width: 124px;
-            height: 18px;
-            opacity: 1;
-
-            font-family: Poppins;
-            font-weight: 500;
-            font-style: Medium;
-            font-size: 12.15px;
-            line-height: 100%;
-            letter-spacing: 8%;
-            text-align: center;
-            color: #252525;
-
-        }
-
-    }
-
-
-    >.location-input-container {
-        opacity: 1;
-        padding-top: 9px;
-        padding-right: 12px;
-        padding-bottom: 9px;
-        padding-left: 12px;
-        gap: 8px;
-        border-radius: 16px;
-        border-width: 1px;
-
-        display: flex;
-        align-items: center;
-        border: 2px solid #565656;
-
-        >.location-icon {
-            width: 24px;
-            height: 24px;
-            opacity: 1;
-
-        }
-
-        >.location-input {
-            width: 233px;
-            height: 15px;
-            opacity: 1;
-
-            font-family: Inter;
-            font-weight: 500;
-            font-style: Medium;
-            font-size: 16px;
-            line-height: 96%;
-            letter-spacing: 0%;
-            border: none;
-            outline: none;
-
-        }
-
-    }
-
-
-    >.sell-buttons {
-        display: flex;
-        gap: 30px;
-
-        >.sell-btn {
-
-
-
-            // width: 79px;
-            height: 37px;
-            opacity: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            border-radius: 16px;
-            padding: 0px 14px;
-
-
-            border: 3px solid transparent;
-            background: linear-gradient(#fff, #fff) padding-box,
-                linear-gradient(97.65deg, #0669E1 7.75%, #1E3D59 92.44%) border-box;
-
-            font-family: Poppins;
-            font-weight: 500;
-            font-style: Medium;
-            font-size: 14px;
-            line-height: 100%;
-            letter-spacing: 4%;
-            text-align: center;
-
-        }
-
-    }
-
-
-    >.menu-links {
-        width: 54;
-        height: 43;
-        opacity: 1;
-        display: flex;
-        gap: 48px;
-
-
-        >a {
-
-            >.menu-icon {
-                width: 24px;
-                height: 24px;
-                opacity: 1;
-                color: black;
-            }
-
-            font-weight: 500;
-            font-style: Medium;
-            font-size: 10px;
-            line-height: 100%;
-            letter-spacing: 0%;
-            text-align: center;
-
-            text-decoration: none;
-            color: black;
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 4px;
-            color: #525252;
+            justify-content: center;
 
+            >img {
+                width: 125.87073516845703px;
+                height: 49.52291488647461px;
+            }
+
+            >p {
+                width: 124px;
+                height: 18px;
+                opacity: 1;
+
+                font-family: Poppins;
+                font-weight: 500;
+                font-style: Medium;
+                font-size: 12.15px;
+                line-height: 100%;
+                letter-spacing: 8%;
+                text-align: center;
+                color: #252525;
+
+            }
 
         }
 
-    }
 
-    >.notification-profile {
-        // border: 2px solid red;
-        gap: 12px;
-        opacity: 1;
-        display: flex;
-        align-items: center;
+        >.location-input-container {
+            opacity: 1;
+            padding-top: 9px;
+            padding-right: 12px;
+            padding-bottom: 9px;
+            padding-left: 12px;
+            gap: 8px;
+            border-radius: 16px;
+            border-width: 1px;
 
-        >div {
-            width: 36px;
-            height: 36px;
+            display: flex;
+            align-items: center;
+            border: 2px solid #565656;
+
+            >.location-icon {
+                width: 24px;
+                height: 24px;
+                opacity: 1;
+
+            }
+
+            >.location-input {
+                width: 233px;
+                height: 15px;
+                opacity: 1;
+
+                font-family: Inter;
+                font-weight: 500;
+                font-style: Medium;
+                font-size: 16px;
+                line-height: 96%;
+                letter-spacing: 0%;
+                border: none;
+                outline: none;
+
+            }
+
+        }
+
+
+        >.sell-buttons {
+            display: flex;
+            gap: 30px;
+
+            >.sell-btn {
+
+
+
+                // width: 79px;
+                height: 37px;
+                opacity: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                border-radius: 16px;
+                padding: 0px 14px;
+
+
+                border: 3px solid transparent;
+                background: linear-gradient(#fff, #fff) padding-box,
+                    linear-gradient(97.65deg, #0669E1 7.75%, #1E3D59 92.44%) border-box;
+
+                font-family: Poppins;
+                font-weight: 500;
+                font-style: Medium;
+                font-size: 14px;
+                line-height: 100%;
+                letter-spacing: 4%;
+
+            }
+
+        }
+
+
+        >.menu-links {
+            width: 54;
+            height: 43;
+            opacity: 1;
+            display: flex;
+            gap: 48px;
+
+
+            >a {
+
+                >.menu-icon {
+                    width: 24px;
+                    height: 24px;
+                    opacity: 1;
+                    color: black;
+                }
+
+                font-weight: 500;
+                font-style: Medium;
+                font-size: 10px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+
+                text-decoration: none;
+                color: black;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 4px;
+                color: #525252;
+
+
+            }
+
+        }
+
+        >.notification-profile {
+            // border: 2px solid red;
+            gap: 12px;
             opacity: 1;
             display: flex;
             align-items: center;
-            justify-content: center;
 
-            >.notification-icon {
-                width: 24px;
-                height: 30px;
-                top: 3px;
-                left: 6px;
+            >div {
+                width: 36px;
+                height: 36px;
                 opacity: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
-                color: #1F1F1F;
+                >.notification-icon {
+                    width: 24px;
+                    height: 30px;
+                    top: 3px;
+                    left: 6px;
+                    opacity: 1;
+
+                    color: #1F1F1F;
+
+                }
+
 
             }
 
 
-        }
+            >.profile-container {
+                width: 59px;
+                height: 59px;
+                opacity: 1;
+                border: 2px solid #D9D9D9;
+                border-radius: 100%;
+                overflow: hidden;
 
+                >img {
+                    width: 100%;
+                }
 
-        >.profile-container {
-            width: 59px;
-            height: 59px;
-            opacity: 1;
-            border: 2px solid #D9D9D9;
-            border-radius: 100%;
-            overflow: hidden;
-
-            >img {
-                width: 100%;
             }
-
         }
+
     }
-
 }
