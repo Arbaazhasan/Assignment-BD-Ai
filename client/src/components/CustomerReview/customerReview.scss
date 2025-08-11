@@ -1,0 +1,94 @@
+.customer-review-container {
+    width: 1384px;
+    height: 280.798828125px;
+
+    left: 64px;
+    gap: 32px;
+    margin: auto;
+    margin-top: 29.03px;
+
+    >p {
+        font-family: Poppins;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+
+    >.review-array {
+        width: 1384px;
+        height: 216.798828125px;
+        margin-top: 32px;
+        display: flex;
+        justify-content: space-between;
+
+
+        >.review-section {
+
+            width: 322px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+
+
+            >.review-stars {
+                width: 116.8082504272461px;
+                height: 18.798828125px;
+                display: flex;
+                gap: 4.6px;
+            }
+
+            >.review-details {
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+
+                >.review-title {
+                    width: 322px;
+                    height: 30px;
+
+                    font-family: Poppins;
+                    font-weight: 500;
+                    font-style: Medium;
+                    font-size: 20px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                }
+
+
+                >.review {
+
+                    width: 322px;
+                    height: auto;
+
+                    font-family: Poppins;
+                    font-weight: 400;
+                    font-style: Regular;
+                    font-size: 16px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #565656;
+
+                }
+
+                >.reviewer-name {
+                    font-family: Poppins;
+                    font-weight: 500;
+                    font-style: Medium;
+                    font-size: 16px;
+                    line-height: 100%;
+                    letter-spacing: 4%;
+                    color: #121212;
+
+                }
+
+            }
+        }
+
+    }
+
+
+}
