@@ -1,0 +1,96 @@
+.plan-expirey-banner {
+    >.plan-expirey-banner-container {
+        width: 1384px;
+        height: 450.0020751953125px;
+        padding: 18.29px 36.58px;
+        border-radius: 16px;
+        background: linear-gradient(272.19deg, #0668E1 1.19%, rgba(6, 104, 225, 0.65) 22.25%, rgba(6, 104, 225, 0.85) 42.84%, #0668E1 57.86%, rgba(6, 104, 225, 0.65) 71.85%, #0668E1 98.53%);
+        margin: auto;
+
+        display: flex;
+        // flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        // border: 2px solid red;
+
+        >.short-pitch {
+            // border: 2px solid red;
+            width: 857px;
+            display: flex;
+            flex-direction: column;
+            gap: 24.39px;
+            opacity: 1;
+
+            >p:nth-child(1) {
+                font-family: Poppins;
+                font-weight: 600;
+                font-style: SemiBold;
+                font-size: 60.81px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: #FFFFFF;
+            }
+
+            >p:nth-child(2) {
+                font-family: Poppins;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 36px;
+                leading-trim: NONE;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: #FFFFFF;
+            }
+
+            >button {
+                width: 256.3134765625px;
+                height: 67.07023620605469px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 9.15px;
+                opacity: 1;
+                padding: 9.15px 12.19px;
+                border-radius: 9.15px;
+                border: 1.52px solid #FFFFFF;
+                background-color: transparent;
+
+                font-family: Poppins;
+                font-weight: 500;
+                font-style: Medium;
+                font-size: 29.94px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-align: center;
+
+                color: #FFFFFF;
+
+                >img {
+                    width: 48.778350830078125px;
+                    height: 48.778350830078125px;
+
+                }
+            }
+        }
+
+
+        >.banner-bg-image {
+            width: 380.780029296875px;
+            height: 413.4183044433594px;
+
+        }
+
+    }
+
+    >.bannerImage {
+        width: 1511.439208984375px;
+        height: 600px;
+        overflow: hidden;
+        top: 4863px;
+        opacity: 1;
+        margin: auto;
+        margin-top: 76.03px;
+
+    }
+
+}
